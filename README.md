@@ -1,70 +1,81 @@
-# React.js and Tailwind CSS Assignment
+ https://plp-mern-stack-development.github.io/react-js-jsx-and-css-mastering-front-end-development-Razkim254/
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
+ # 🌟 React + Tailwind CSS Front-End Assignment
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+This project is a responsive React application built with Vite and styled using Tailwind CSS. It demonstrates component architecture, state management, hooks usage, and API integration — all aligned with modern front-end development best practices.
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## 🚀 Features
 
-## Files Included
+- ✅ Component-based architecture with reusable UI elements
+- ✅ Task Manager with add, delete, complete, and filter functionality
+- ✅ Custom hooks (`useLocalStorage`) and context (`ThemeContext`)
+- ✅ API integration with JSONPlaceholder (search, loading, error states)
+- ✅ Responsive design with light/dark theme toggle
+- ✅ Routing via React Router
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 📂 Project Structure
 
-- Node.js (v18 or higher)
+src/ ├── components/ # Reusable UI components (Button, Card, Navbar, etc.) ├── pages/ # Page-level components ├── hooks/ # Custom React hooks ├── context/ # Theme context provider ├── api/ # API integration logic ├── utils/ # Utility functions └── App.jsx # Main application component
+
+Code
+
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- Node.js v18 or higher
 - npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+- Modern browser
+- VS Code (recommended)
 
-## Project Structure
+### Installation
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+```bash
+# Clone your GitHub Classroom repo
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
 
-## Submission
+# Install dependencies
+npm install
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+# Start development server
+npm run dev
+🌐 Live Preview
+Once running, open http://localhost:5173 in your browser.
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+📸 Screenshots
+Replace these with actual screenshots from your app
 
-## Resources
+🧭 Navbar and Theme Toggle
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+✅ Task Manager
+
+🌍 API Integration
+
+📦 Dependencies
+React
+
+Vite
+
+Tailwind CSS
+
+React Router DOM
+
+ESLint
+
+📄 Assignment Instructions
+See Week3-Assignment.md for detailed task breakdown.
+
+📬 Submission
+Commit and push regularly to show progress
+
+Include all project files and screenshots
+
+Ensure your code is clean, organized, and well-commented
